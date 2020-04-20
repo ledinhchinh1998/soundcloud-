@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB56A61244DAA9600EFF080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB56A60244DAA9600EFF080 /* AppDelegate.swift */; };
+		ABB56A63244DAA9600EFF080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB56A62244DAA9600EFF080 /* SceneDelegate.swift */; };
+		ABB56A65244DAA9600EFF080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB56A64244DAA9600EFF080 /* ViewController.swift */; };
+		ABB56A68244DAA9600EFF080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB56A66244DAA9600EFF080 /* Main.storyboard */; };
+		ABB56A6A244DAA9800EFF080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB56A69244DAA9800EFF080 /* Assets.xcassets */; };
+		ABB56A6D244DAA9800EFF080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB56A6B244DAA9800EFF080 /* LaunchScreen.storyboard */; };
+		ABB56A78244DAA9800EFF080 /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB56A77244DAA9800EFF080 /* SoundCloudTests.swift */; };
+		ABB56A83244DAA9800EFF080 /* SoundCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB56A82244DAA9800EFF080 /* SoundCloudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB56A74244DAA9800EFF080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB56A55244DAA9600EFF080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB56A5C244DAA9600EFF080;
+			remoteInfo = SoundCloud;
+		};
+		ABB56A7F244DAA9800EFF080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB56A55244DAA9600EFF080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB56A5C244DAA9600EFF080;
+			remoteInfo = SoundCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB56A5D244DAA9600EFF080 /* SoundCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB56A60244DAA9600EFF080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABB56A62244DAA9600EFF080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABB56A64244DAA9600EFF080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB56A67244DAA9600EFF080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB56A69244DAA9800EFF080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB56A6C244DAA9800EFF080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB56A6E244DAA9800EFF080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB56A73244DAA9800EFF080 /* SoundCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB56A77244DAA9800EFF080 /* SoundCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudTests.swift; sourceTree = "<group>"; };
+		ABB56A79244DAA9800EFF080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB56A7E244DAA9800EFF080 /* SoundCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB56A82244DAA9800EFF080 /* SoundCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudUITests.swift; sourceTree = "<group>"; };
+		ABB56A84244DAA9800EFF080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB56A5A244DAA9600EFF080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A70244DAA9800EFF080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A7B244DAA9800EFF080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB56A54244DAA9600EFF080 = {
+			isa = PBXGroup;
+			children = (
+				ABB56A5F244DAA9600EFF080 /* SoundCloud */,
+				ABB56A76244DAA9800EFF080 /* SoundCloudTests */,
+				ABB56A81244DAA9800EFF080 /* SoundCloudUITests */,
+				ABB56A5E244DAA9600EFF080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB56A5E244DAA9600EFF080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB56A5D244DAA9600EFF080 /* SoundCloud.app */,
+				ABB56A73244DAA9800EFF080 /* SoundCloudTests.xctest */,
+				ABB56A7E244DAA9800EFF080 /* SoundCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB56A5F244DAA9600EFF080 /* SoundCloud */ = {
+			isa = PBXGroup;
+			children = (
+				ABB56A60244DAA9600EFF080 /* AppDelegate.swift */,
+				ABB56A62244DAA9600EFF080 /* SceneDelegate.swift */,
+				ABB56A64244DAA9600EFF080 /* ViewController.swift */,
+				ABB56A66244DAA9600EFF080 /* Main.storyboard */,
+				ABB56A69244DAA9800EFF080 /* Assets.xcassets */,
+				ABB56A6B244DAA9800EFF080 /* LaunchScreen.storyboard */,
+				ABB56A6E244DAA9800EFF080 /* Info.plist */,
+			);
+			path = SoundCloud;
+			sourceTree = "<group>";
+		};
+		ABB56A76244DAA9800EFF080 /* SoundCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB56A77244DAA9800EFF080 /* SoundCloudTests.swift */,
+				ABB56A79244DAA9800EFF080 /* Info.plist */,
+			);
+			path = SoundCloudTests;
+			sourceTree = "<group>";
+		};
+		ABB56A81244DAA9800EFF080 /* SoundCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB56A82244DAA9800EFF080 /* SoundCloudUITests.swift */,
+				ABB56A84244DAA9800EFF080 /* Info.plist */,
+			);
+			path = SoundCloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB56A5C244DAA9600EFF080 /* SoundCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB56A87244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloud" */;
+			buildPhases = (
+				ABB56A59244DAA9600EFF080 /* Sources */,
+				ABB56A5A244DAA9600EFF080 /* Frameworks */,
+				ABB56A5B244DAA9600EFF080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundCloud;
+			productName = SoundCloud;
+			productReference = ABB56A5D244DAA9600EFF080 /* SoundCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB56A72244DAA9800EFF080 /* SoundCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB56A8A244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloudTests" */;
+			buildPhases = (
+				ABB56A6F244DAA9800EFF080 /* Sources */,
+				ABB56A70244DAA9800EFF080 /* Frameworks */,
+				ABB56A71244DAA9800EFF080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB56A75244DAA9800EFF080 /* PBXTargetDependency */,
+			);
+			name = SoundCloudTests;
+			productName = SoundCloudTests;
+			productReference = ABB56A73244DAA9800EFF080 /* SoundCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB56A7D244DAA9800EFF080 /* SoundCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB56A8D244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloudUITests" */;
+			buildPhases = (
+				ABB56A7A244DAA9800EFF080 /* Sources */,
+				ABB56A7B244DAA9800EFF080 /* Frameworks */,
+				ABB56A7C244DAA9800EFF080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB56A80244DAA9800EFF080 /* PBXTargetDependency */,
+			);
+			name = SoundCloudUITests;
+			productName = SoundCloudUITests;
+			productReference = ABB56A7E244DAA9800EFF080 /* SoundCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB56A55244DAA9600EFF080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Chinh le";
+				TargetAttributes = {
+					ABB56A5C244DAA9600EFF080 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ABB56A72244DAA9800EFF080 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ABB56A5C244DAA9600EFF080;
+					};
+					ABB56A7D244DAA9800EFF080 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ABB56A5C244DAA9600EFF080;
+					};
+				};
+			};
+			buildConfigurationList = ABB56A58244DAA9600EFF080 /* Build configuration list for PBXProject "SoundCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB56A54244DAA9600EFF080;
+			productRefGroup = ABB56A5E244DAA9600EFF080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB56A5C244DAA9600EFF080 /* SoundCloud */,
+				ABB56A72244DAA9800EFF080 /* SoundCloudTests */,
+				ABB56A7D244DAA9800EFF080 /* SoundCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB56A5B244DAA9600EFF080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB56A6D244DAA9800EFF080 /* LaunchScreen.storyboard in Resources */,
+				ABB56A6A244DAA9800EFF080 /* Assets.xcassets in Resources */,
+				ABB56A68244DAA9600EFF080 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A71244DAA9800EFF080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A7C244DAA9800EFF080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB56A59244DAA9600EFF080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB56A65244DAA9600EFF080 /* ViewController.swift in Sources */,
+				ABB56A61244DAA9600EFF080 /* AppDelegate.swift in Sources */,
+				ABB56A63244DAA9600EFF080 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A6F244DAA9800EFF080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB56A78244DAA9800EFF080 /* SoundCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB56A7A244DAA9800EFF080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB56A83244DAA9800EFF080 /* SoundCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB56A75244DAA9800EFF080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB56A5C244DAA9600EFF080 /* SoundCloud */;
+			targetProxy = ABB56A74244DAA9800EFF080 /* PBXContainerItemProxy */;
+		};
+		ABB56A80244DAA9800EFF080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB56A5C244DAA9600EFF080 /* SoundCloud */;
+			targetProxy = ABB56A7F244DAA9800EFF080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB56A66244DAA9600EFF080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB56A67244DAA9600EFF080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB56A6B244DAA9800EFF080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB56A6C244DAA9800EFF080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB56A85244DAA9800EFF080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB56A86244DAA9800EFF080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB56A88244DAA9800EFF080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB56A89244DAA9800EFF080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABB56A8B244DAA9800EFF080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloudTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundCloud.app/SoundCloud";
+			};
+			name = Debug;
+		};
+		ABB56A8C244DAA9800EFF080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloudTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundCloud.app/SoundCloud";
+			};
+			name = Release;
+		};
+		ABB56A8E244DAA9800EFF080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundCloud;
+			};
+			name = Debug;
+		};
+		ABB56A8F244DAA9800EFF080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDatabase.SoundCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB56A58244DAA9600EFF080 /* Build configuration list for PBXProject "SoundCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB56A85244DAA9800EFF080 /* Debug */,
+				ABB56A86244DAA9800EFF080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB56A87244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB56A88244DAA9800EFF080 /* Debug */,
+				ABB56A89244DAA9800EFF080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB56A8A244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB56A8B244DAA9800EFF080 /* Debug */,
+				ABB56A8C244DAA9800EFF080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB56A8D244DAA9800EFF080 /* Build configuration list for PBXNativeTarget "SoundCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB56A8E244DAA9800EFF080 /* Debug */,
+				ABB56A8F244DAA9800EFF080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB56A55244DAA9600EFF080 /* Project object */;
+}
