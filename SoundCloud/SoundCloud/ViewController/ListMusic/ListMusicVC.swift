@@ -7,24 +7,43 @@
 //
 
 import UIKit
+import Alamofire
 
-class ListMusicVC: UIViewController {
+class ListMusicVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var arrImg = ["1" , "2" , "3" ]
+    var arrSong =  [Song(name: "Chi Toi", singer: "Bang Kieu", imgSongCover: "1"),Song(name: "I do", singer: "6969", imgSongCover: "2"),Song(name: "Vang", singer: "Xanh", imgSongCover: "3")]
+    
+    @IBOutlet weak var tableView: UITableView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrSong.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CellMusic", for: indexPath) as? CellMusic else {
+            return UITableViewCell()
+        }
+        cell.nameCaSi?.text = "Cong"
+        cell.nameBaiHat?.text = "I do"
+        cell.imageMusic?.image = UIImage(named: arrImg[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var playerVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "playerVC") as? PlayerVC
+        playerVC?.lbSong.text =
+    }
+    
+    @IBAction func btnSearch( sender: Any){
+        
+    }
+    
 
 }
